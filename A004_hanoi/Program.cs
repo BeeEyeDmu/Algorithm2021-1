@@ -1,5 +1,6 @@
 ﻿using System;
 
+// hanoi tower - recursive function
 namespace A004_hanoi
 {
   class Program
