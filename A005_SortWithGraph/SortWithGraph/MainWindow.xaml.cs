@@ -303,15 +303,14 @@ namespace SortWithGraph
         if (timeFlag == false)
         {
           Dispatcher.Invoke(new Action(Graph));
-          Thread.Sleep(50);
-        }
+                    Thread.Sleep(50);
+                }
       }
     }
 
+    int[] sorted = new int[MAX];
     private void Merge(int[] a, int left, int mid, int right)
     {
-      int[] sorted = new int[MAX];
-
       int i, j, k = left;
       for (i = left, j = mid+1; i<=mid && j<=right; )
       {
