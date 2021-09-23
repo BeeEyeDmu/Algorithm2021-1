@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A004_hanoi", "A004_hanoi\A0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A005_SortWithGraph", "A005_SortWithGraph\SortWithGraph\A005_SortWithGraph.csproj", "{56C0FE4A-8448-4BB1-B61C-D10CC3C95B98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A006_ClosestPair", "..\..\..\바탕 화면\repos1\AlgorithmClass\ClosestPair\ClosestPair\A006_ClosestPair.csproj", "{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{56C0FE4A-8448-4BB1-B61C-D10CC3C95B98}.Release|x64.Build.0 = Release|Any CPU
 		{56C0FE4A-8448-4BB1-B61C-D10CC3C95B98}.Release|x86.ActiveCfg = Release|Any CPU
 		{56C0FE4A-8448-4BB1-B61C-D10CC3C95B98}.Release|x86.Build.0 = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x64.Build.0 = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
