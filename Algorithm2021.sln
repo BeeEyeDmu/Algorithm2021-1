@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A004_hanoi", "A004_hanoi\A0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A005_SortWithGraph", "A005_SortWithGraph\SortWithGraph\A005_SortWithGraph.csproj", "{56C0FE4A-8448-4BB1-B61C-D10CC3C95B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A006_ClosestPair", "..\..\..\바탕 화면\repos1\AlgorithmClass\ClosestPair\ClosestPair\A006_ClosestPair.csproj", "{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A006_ClosestPair", "A006_ClosestPair\ClosestPair\A006_ClosestPair.csproj", "{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
