@@ -11,7 +11,7 @@ namespace Prim
     static void Main(string[] args)
     {
       Graph g = new Graph();
-      g.ReadGraph("graph2.txt");
+      g.ReadGraph("graph1.txt");
       g.PrintGraph();
 
       g.Prim(0);  // 0번 버텍스부터 시작

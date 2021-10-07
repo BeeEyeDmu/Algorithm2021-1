@@ -21,7 +21,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="124,72,0,0" TextWrapping="Wrap" Text="알고리즘 별 실행속도 : " VerticalAlignment="Top" RenderTransformOrigin="0.468,1.138" Grid.ColumnSpan="2" Width="150"/>
         <Button x:Name="btnBubble" Content="버블정렬" Grid.Column="1" HorizontalAlignment="Left" Margin="52,102,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.015,0.635" Click="BtnBubble_Click"/>
         <Button x:Name="btnQuick" Content="퀵 정렬" Grid.Column="1" HorizontalAlignment="Left" Margin="172,102,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.015,0.635" Click="BtnQuick_Click"/>
-        <Button x:Name="btnMerge" Content="합병 정렬" Grid.Column="1" HorizontalAlignment="Left" Margin="290,102,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.015,0.635" Click="BtnMerge_Click" />
+        <Button x:Name="btnMerge" Content="합병 정렬" Grid.Column="1" HorizontalAlignment="Left" Margin="293.667,108,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.015,0.635" Click="BtnMerge_Click" />
 
     </Grid>
 </Window>

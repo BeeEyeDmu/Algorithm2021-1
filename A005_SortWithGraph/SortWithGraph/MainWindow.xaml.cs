@@ -22,7 +22,7 @@ namespace SortWithGraph
 
     public MainWindow()
     {
-      InitializeComponent();      
+      InitializeComponent();
     }
 
     private void BtnCreate_Click(object sender, RoutedEventArgs e)
@@ -45,7 +45,7 @@ namespace SortWithGraph
       canvas.Children.Clear();
 
       for (int i = 0; i < N; i++)
-      {        
+      {
         Line l = new Line();
         l.X1 = l.X2 = i * 5;
         if (l.X1 > canvas.Width)
@@ -115,7 +115,7 @@ namespace SortWithGraph
 
       // 측정시간을 Canvas에 표시
       TextBlock txtMerge = new TextBlock();
-      txtMerge.Text = "Merge Sort : " + tickMerge + " Ticks.  " + tickMerge/10000.0 + " ms.";
+      txtMerge.Text = "Merge Sort : " + tickMerge + " Ticks.  " + tickMerge / 10000.0 + " ms.";
       txtMerge.Foreground = Brushes.Black;
       txtMerge.Background = Brushes.White;
       Canvas.SetLeft(txtMerge, 100);
@@ -128,7 +128,8 @@ namespace SortWithGraph
 
     private void BubbleSort()
     {
-      for (int i = N - 1; i > 0; i--) { 
+      for (int i = N - 1; i > 0; i--)
+      {
         for (int j = 0; j < i; j++)
         {
           if (a[j] > a[j + 1])
@@ -156,7 +157,7 @@ namespace SortWithGraph
 
     private void DSQSort(int[] a, int left, int right)
     {
-      if(left < right)
+      if (left < right)
       {
         int q = partition(a, left, right);
         DSQSort(a, left, q - 1);
@@ -198,7 +199,7 @@ namespace SortWithGraph
         }
         //Console.WriteLine("left={0}, right={1}, low={2}, high={3}", left, right, low, high);
       } while (low < high);
-      
+
       // pivot과 a[high]를 교체
       a[left] = a[high];
       a[high] = pivot;
@@ -294,7 +295,7 @@ namespace SortWithGraph
 
     private void MergeSort(int[] arr, int left, int right)
     {
-      if(left < right)
+      if (left < right)
       {
         int mid = (left + right) / 2;
         MergeSort(a, left, mid);
@@ -303,8 +304,8 @@ namespace SortWithGraph
         if (timeFlag == false)
         {
           Dispatcher.Invoke(new Action(Graph));
-                    Thread.Sleep(50);
-                }
+          Thread.Sleep(50);
+        }
       }
     }
 
@@ -312,7 +313,7 @@ namespace SortWithGraph
     private void Merge(int[] a, int left, int mid, int right)
     {
       int i, j, k = left;
-      for (i = left, j = mid+1; i<=mid && j<=right; )
+      for (i = left, j = mid + 1; i <= mid && j <= right;)
       {
         sorted[k++] = (a[i] <= a[j]) ? a[i++] : a[j++];
       }
