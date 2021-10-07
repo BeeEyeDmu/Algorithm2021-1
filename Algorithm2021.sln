@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A005_SortWithGraph", "A005_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A006_ClosestPair", "A006_ClosestPair\ClosestPair\A006_ClosestPair.csproj", "{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A007_Prim", "A007_Prim\Prim\A007_Prim.csproj", "{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x64.Build.0 = Release|Any CPU
 		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x86.ActiveCfg = Release|Any CPU
 		{AFCAAFC0-E307-41C7-99C7-1A848A3663AD}.Release|x86.Build.0 = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|x64.Build.0 = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F253BBC4-E3BE-4563-9E83-7B734A32C9B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
