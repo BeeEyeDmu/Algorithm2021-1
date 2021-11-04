@@ -23,7 +23,7 @@ namespace FloydWarshall
     private static void FloydWarshall(int[,] graph, int V)
     {
       Console.WriteLine("graph");
-      PrintDist(graph, V);
+      PrintGraph(graph, V);
 
       int[,] next = new int[V, V];
 
@@ -48,8 +48,8 @@ namespace FloydWarshall
               next[i, j] = next[i, k];
             }
 
-        Console.WriteLine("Dist({0})", k);
-        PrintDist(graph, V);
+        Console.WriteLine("Graph({0})", k);
+        PrintGraph(graph, V);
         Console.WriteLine("Next({0})", k);
         PrintNext(next, V);
       }
@@ -66,7 +66,7 @@ namespace FloydWarshall
       }
     }
 
-    private static void PrintDist(int[,] graph, int V)
+    private static void PrintGraph(int[,] graph, int V)
     {
       for (int i = 0; i < V; i++)
       {
